@@ -1,27 +1,48 @@
 
-.venv/
-venv/
+# Python
 __pycache__/
 *.pyc
+*.pyo
 
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Git
 .git/
 .github/
 
+# Secrets
 .env
 .env.*
 
+# Dataset
 data/raw/
 data/processed/
 data/yolo_seg_dataset/
 
+# Training outputs
 outputs/
-logs/
 runs/
+logs/
 wandb/
+mlruns/
 
-.ipynb_checkpoints/
+# Model checkpoints
+models/checkpoints/
+
+# IDE
 .vscode/
 .idea/
 
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary files
 *.log
 *.tmp
+
+# OS
+.DS_Store
+Thumbs.db

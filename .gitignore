@@ -1,60 +1,29 @@
 
-# ==========================================
-# INDIAN FOOD AI - GITIGNORE
-# ==========================================
-
 # Python cache
 __pycache__/
 *.py[cod]
-*$py.class
 *.pyo
 
 # Virtual environments
 .venv/
 venv/
 env/
-ENV/
 
-# Environment variables and secrets
+# Environment variables
 .env
 .env.*
 !.env.example
 
-# Jupyter Notebook
-.ipynb_checkpoints/
-*.ipynb_checkpoints
-
-# IDE and editor
+# IDE
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Operating system
+# OS
 .DS_Store
 Thumbs.db
-desktop.ini
 
-# ==========================================
-# MACHINE LEARNING
-# ==========================================
-
-# Training checkpoints
-models/checkpoints/
-**/checkpoint-*/
-
-# TensorBoard
-runs/
-logs/
-tensorboard/
-
-# Experiment tracking
-mlruns/
-wandb/
-
-# ==========================================
-# DATASETS
-# ==========================================
+# Jupyter
+.ipynb_checkpoints/
 
 # Raw datasets
 data/raw/*
@@ -68,47 +37,36 @@ data/processed/*
 data/yolo_seg_dataset/*
 !data/yolo_seg_dataset/.gitkeep
 
-# Temporary data
-*.csv.tmp
-*.json.tmp
-*.parquet
+# Model checkpoints
+models/checkpoints/
 
-# ==========================================
-# GENERATED OUTPUTS
-# ==========================================
+# IMPORTANT:
+# Do not ignore *.pth or *.pt
+# These are tracked using Git LFS.
 
+# Training outputs
 outputs/*
 !outputs/.gitkeep
 
-*.log
-*.tmp
+runs/
+logs/
+wandb/
+mlruns/
 
-# ==========================================
-# MODEL FILES
-# ==========================================
-
-# IMPORTANT:
-# Do not ignore *.pth or *.pt.
-# Your 106 MB model will be tracked using Git LFS.
-
-# ==========================================
-# PYTHON BUILD FILES
-# ==========================================
-
-build/
-dist/
-*.egg-info/
-.eggs/
-
-# FastAPI / temporary files
+# Python test cache
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
 
-# Local database files
+# Build
+build/
+dist/
+*.egg-info/
+
+# Local database
 *.sqlite3
 *.db
 
-# Secrets and credentials
+# Credentials
 credentials.json
 service-account.json
