@@ -1,0 +1,47 @@
+# All paths are relative to the project root.
+paths:
+  raw_data: data/raw/indian-food-images          # image folders: <raw_data>/**/<class_name>/*.jpg
+  processed: data/processed                       # train/val/test csv + class_mapping.json
+  analysis: outputs/analysis
+  plots: outputs/plots
+  reports: outputs/reports
+  models: models
+  checkpoints: models/checkpoints
+  yolo_dataset: data/yolo_seg_dataset
+  yolo_runs: outputs/yolo_seg_runs
+  nutrition_db: data/nutrition/nutrition_db.json
+
+dataset:
+  kaggle_id: kashyap077/indian-food-images-for-model-fine-tuning-2026
+  image_extensions: [".jpg", ".jpeg", ".png", ".webp", ".bmp"]
+
+split:
+  train: 0.8
+  val: 0.1
+  test: 0.1
+  seed: 42
+
+classifier:
+  architecture: convnext_tiny
+  pretrained: true            # set false only for offline smoke tests
+  image_size: 224
+  resize_size: 256
+  batch_size: 32
+  num_workers: auto           # auto = 0 on Windows, up to 4 elsewhere
+  amp: true                   # mixed precision (GPU only)
+  label_smoothing: 0.1
+  weight_decay: 0.0001
+  head:       { epochs: 5, lr: 0.001 }     # stage 1: frozen backbone
+  finetune:   { epochs: 5, lr: 0.00001 }   # stage 2: full network
+
+segmentation:
+  weights: yolo11n-seg.pt     # yolo11s-seg.pt / yolo11m-seg.pt for more accuracy
+  epochs: 50
+  imgsz: 640
+  batch: 16
+  patience: 10
+  run_name: food_seg
+
+inference:
+  default_portion_grams: 150
+  top_k: 3

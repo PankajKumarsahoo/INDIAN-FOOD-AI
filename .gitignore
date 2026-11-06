@@ -1,0 +1,114 @@
+
+# ==========================================
+# INDIAN FOOD AI - GITIGNORE
+# ==========================================
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# MACHINE LEARNING
+# ==========================================
+
+# Training checkpoints
+models/checkpoints/
+**/checkpoint-*/
+
+# TensorBoard
+runs/
+logs/
+tensorboard/
+
+# Experiment tracking
+mlruns/
+wandb/
+
+# ==========================================
+# DATASETS
+# ==========================================
+
+# Raw datasets
+data/raw/*
+!data/raw/.gitkeep
+
+# Processed datasets
+data/processed/*
+!data/processed/.gitkeep
+
+# YOLO datasets
+data/yolo_seg_dataset/*
+!data/yolo_seg_dataset/.gitkeep
+
+# Temporary data
+*.csv.tmp
+*.json.tmp
+*.parquet
+
+# ==========================================
+# GENERATED OUTPUTS
+# ==========================================
+
+outputs/*
+!outputs/.gitkeep
+
+*.log
+*.tmp
+
+# ==========================================
+# MODEL FILES
+# ==========================================
+
+# IMPORTANT:
+# Do not ignore *.pth or *.pt.
+# Your 106 MB model will be tracked using Git LFS.
+
+# ==========================================
+# PYTHON BUILD FILES
+# ==========================================
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# FastAPI / temporary files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local database files
+*.sqlite3
+*.db
+
+# Secrets and credentials
+credentials.json
+service-account.json

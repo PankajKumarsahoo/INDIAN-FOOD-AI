@@ -1,0 +1,2393 @@
+{
+    "_comment": "Per-100g: kcal, protein, carbs, fat (required); fiber, sugar, sodium_mg (optional); serving_g = typical serving in grams.",
+    "achar": {
+        "kcal": 300.0,
+        "protein": 2.0,
+        "carbs": 12.0,
+        "fat": 28.0,
+        "fiber": 3.0,
+        "sugar": 2.0,
+        "sodium_mg": 1500.0,
+        "serving_g": 15.0
+    },
+    "adhirasam": {
+        "kcal": 390.0,
+        "protein": 3.0,
+        "carbs": 70.0,
+        "fat": 10.0,
+        "fiber": 2.0,
+        "sugar": 35.0,
+        "sodium_mg": 50.0,
+        "serving_g": 40.0
+    },
+    "aloo_gobi": {
+        "kcal": 95.0,
+        "protein": 2.5,
+        "carbs": 11.0,
+        "fat": 5.0,
+        "fiber": 2.5,
+        "sugar": 2.0,
+        "sodium_mg": 300.0,
+        "serving_g": 150.0
+    },
+    "aloo_matar": {
+        "kcal": 100.0,
+        "protein": 3.0,
+        "carbs": 12.0,
+        "fat": 5.0,
+        "fiber": 3.0,
+        "sugar": 2.5,
+        "sodium_mg": 320.0,
+        "serving_g": 150.0
+    },
+    "aloo_methi": {
+        "kcal": 100.0,
+        "protein": 2.5,
+        "carbs": 12.0,
+        "fat": 5.0,
+        "fiber": 3.0,
+        "sugar": 1.5,
+        "sodium_mg": 300.0,
+        "serving_g": 150.0
+    },
+    "aloo_paratha": {
+        "kcal": 260.0,
+        "protein": 6.0,
+        "carbs": 36.0,
+        "fat": 10.0,
+        "fiber": 3.0,
+        "sugar": 1.0,
+        "sodium_mg": 450.0,
+        "serving_g": 100.0
+    },
+    "aloo_puri": {
+        "kcal": 330.0,
+        "protein": 5.0,
+        "carbs": 40.0,
+        "fat": 17.0,
+        "fiber": 2.5,
+        "sugar": 1.0,
+        "sodium_mg": 400.0,
+        "serving_g": 60.0
+    },
+    "aloo_shimla_mirch": {
+        "kcal": 90.0,
+        "protein": 2.0,
+        "carbs": 11.0,
+        "fat": 4.5,
+        "fiber": 2.5,
+        "sugar": 2.5,
+        "sodium_mg": 300.0,
+        "serving_g": 150.0
+    },
+    "aloo_tikki": {
+        "kcal": 200.0,
+        "protein": 3.5,
+        "carbs": 26.0,
+        "fat": 9.0,
+        "fiber": 2.5,
+        "sugar": 1.5,
+        "sodium_mg": 380.0,
+        "serving_g": 80.0
+    },
+    "amritsari_kulcha": {
+        "kcal": 280.0,
+        "protein": 7.0,
+        "carbs": 44.0,
+        "fat": 8.0,
+        "fiber": 2.0,
+        "sugar": 2.0,
+        "sodium_mg": 500.0,
+        "serving_g": 110.0
+    },
+    "anarsa": {
+        "kcal": 420.0,
+        "protein": 5.0,
+        "carbs": 65.0,
+        "fat": 16.0,
+        "fiber": 1.5,
+        "sugar": 20.0,
+        "sodium_mg": 60.0,
+        "serving_g": 30.0
+    },
+    "anda_curry": {
+        "kcal": 130.0,
+        "protein": 7.0,
+        "carbs": 5.0,
+        "fat": 9.0,
+        "fiber": 1.5,
+        "sugar": 2.0,
+        "sodium_mg": 380.0,
+        "serving_g": 200.0
+    },
+    "appam": {
+        "kcal": 150.0,
+        "protein": 3.0,
+        "carbs": 30.0,
+        "fat": 1.5,
+        "fiber": 1.0,
+        "sugar": 3.0,
+        "sodium_mg": 200.0,
+        "serving_g": 60.0
+    },
+    "apple": {
+        "kcal": 52.0,
+        "protein": 0.3,
+        "carbs": 14.0,
+        "fat": 0.2,
+        "fiber": 2.4,
+        "sugar": 10.0,
+        "sodium_mg": 1.0,
+        "serving_g": 180.0
+    },
+    "apple_pie": {
+        "kcal": 265.0,
+        "protein": 2.0,
+        "carbs": 38.0,
+        "fat": 12.0,
+        "fiber": 1.5,
+        "sugar": 17.0,
+        "sodium_mg": 240.0,
+        "serving_g": 125.0
+    },
+    "ariselu": {
+        "kcal": 430.0,
+        "protein": 5.0,
+        "carbs": 72.0,
+        "fat": 14.0,
+        "fiber": 2.0,
+        "sugar": 40.0,
+        "sodium_mg": 40.0,
+        "serving_g": 35.0
+    },
+    "bagels": {
+        "kcal": 250.0,
+        "protein": 10.0,
+        "carbs": 49.0,
+        "fat": 1.5,
+        "fiber": 2.5,
+        "sugar": 6.0,
+        "sodium_mg": 440.0,
+        "serving_g": 95.0
+    },
+    "baingan_bharta": {
+        "kcal": 85.0,
+        "protein": 2.0,
+        "carbs": 8.0,
+        "fat": 5.0,
+        "fiber": 3.5,
+        "sugar": 4.0,
+        "sodium_mg": 280.0,
+        "serving_g": 150.0
+    },
+    "balushahi": {
+        "kcal": 430.0,
+        "protein": 5.0,
+        "carbs": 55.0,
+        "fat": 22.0,
+        "fiber": 1.0,
+        "sugar": 30.0,
+        "sodium_mg": 60.0,
+        "serving_g": 50.0
+    },
+    "banana": {
+        "kcal": 89.0,
+        "protein": 1.1,
+        "carbs": 23.0,
+        "fat": 0.3,
+        "fiber": 2.6,
+        "sugar": 12.0,
+        "sodium_mg": 1.0,
+        "serving_g": 120.0
+    },
+    "banana_chips": {
+        "kcal": 519.0,
+        "protein": 2.3,
+        "carbs": 58.0,
+        "fat": 34.0,
+        "fiber": 4.0,
+        "sugar": 35.0,
+        "sodium_mg": 100.0,
+        "serving_g": 30.0
+    },
+    "bandar_laddu": {
+        "kcal": 420.0,
+        "protein": 6.0,
+        "carbs": 65.0,
+        "fat": 16.0,
+        "fiber": 2.0,
+        "sugar": 45.0,
+        "sodium_mg": 50.0,
+        "serving_g": 40.0
+    },
+    "basundi": {
+        "kcal": 180.0,
+        "protein": 6.0,
+        "carbs": 22.0,
+        "fat": 7.0,
+        "fiber": 0.0,
+        "sugar": 20.0,
+        "sodium_mg": 70.0,
+        "serving_g": 150.0
+    },
+    "beetroot": {
+        "kcal": 43.0,
+        "protein": 1.6,
+        "carbs": 10.0,
+        "fat": 0.2,
+        "fiber": 2.8,
+        "sugar": 7.0,
+        "sodium_mg": 78.0,
+        "serving_g": 100.0
+    },
+    "besan_cheela": {
+        "kcal": 190.0,
+        "protein": 9.0,
+        "carbs": 24.0,
+        "fat": 6.0,
+        "fiber": 4.0,
+        "sugar": 2.0,
+        "sodium_mg": 350.0,
+        "serving_g": 80.0
+    },
+    "besan_laddu": {
+        "kcal": 470.0,
+        "protein": 10.0,
+        "carbs": 50.0,
+        "fat": 26.0,
+        "fiber": 4.0,
+        "sugar": 30.0,
+        "sodium_mg": 30.0,
+        "serving_g": 40.0
+    },
+    "bhatura": {
+        "kcal": 300.0,
+        "protein": 7.0,
+        "carbs": 45.0,
+        "fat": 10.0,
+        "fiber": 2.0,
+        "sugar": 2.0,
+        "sodium_mg": 420.0,
+        "serving_g": 80.0
+    },
+    "bhel_puri": {
+        "kcal": 180.0,
+        "protein": 4.0,
+        "carbs": 30.0,
+        "fat": 5.0,
+        "fiber": 3.0,
+        "sugar": 5.0,
+        "sodium_mg": 500.0,
+        "serving_g": 100.0
+    },
+    "bhindi_masala": {
+        "kcal": 90.0,
+        "protein": 2.5,
+        "carbs": 9.0,
+        "fat": 5.0,
+        "fiber": 3.5,
+        "sugar": 3.0,
+        "sodium_mg": 300.0,
+        "serving_g": 150.0
+    },
+    "biryani": {
+        "kcal": 160.0,
+        "protein": 6.5,
+        "carbs": 22.0,
+        "fat": 5.0,
+        "fiber": 1.0,
+        "sugar": 1.0,
+        "sodium_mg": 420.0,
+        "serving_g": 250.0
+    },
+    "boondi": {
+        "kcal": 480.0,
+        "protein": 8.0,
+        "carbs": 60.0,
+        "fat": 24.0,
+        "fiber": 2.0,
+        "sugar": 25.0,
+        "sodium_mg": 200.0,
+        "serving_g": 30.0
+    },
+    "boondi_laddu": {
+        "kcal": 400.0,
+        "protein": 5.0,
+        "carbs": 68.0,
+        "fat": 13.0,
+        "fiber": 1.0,
+        "sugar": 50.0,
+        "sodium_mg": 50.0,
+        "serving_g": 40.0
+    },
+    "brownie": {
+        "kcal": 466.0,
+        "protein": 6.0,
+        "carbs": 56.0,
+        "fat": 25.0,
+        "fiber": 2.5,
+        "sugar": 38.0,
+        "sodium_mg": 230.0,
+        "serving_g": 60.0
+    },
+    "burger": {
+        "kcal": 260.0,
+        "protein": 13.0,
+        "carbs": 28.0,
+        "fat": 10.0,
+        "fiber": 1.5,
+        "sugar": 5.0,
+        "sodium_mg": 510.0,
+        "serving_g": 150.0
+    },
+    "butter_chicken": {
+        "kcal": 150.0,
+        "protein": 10.0,
+        "carbs": 6.0,
+        "fat": 9.5,
+        "fiber": 1.0,
+        "sugar": 3.0,
+        "sodium_mg": 420.0,
+        "serving_g": 200.0
+    },
+    "butter_naan": {
+        "kcal": 310.0,
+        "protein": 8.0,
+        "carbs": 48.0,
+        "fat": 9.0,
+        "fiber": 2.0,
+        "sugar": 3.0,
+        "sodium_mg": 480.0,
+        "serving_g": 90.0
+    },
+    "cabbage": {
+        "kcal": 25.0,
+        "protein": 1.3,
+        "carbs": 6.0,
+        "fat": 0.1,
+        "fiber": 2.5,
+        "sugar": 3.2,
+        "sodium_mg": 18.0,
+        "serving_g": 100.0
+    },
+    "cake": {
+        "kcal": 350.0,
+        "protein": 5.0,
+        "carbs": 50.0,
+        "fat": 15.0,
+        "fiber": 1.0,
+        "sugar": 35.0,
+        "sodium_mg": 300.0,
+        "serving_g": 80.0
+    },
+    "canned_potatoes": {
+        "kcal": 60.0,
+        "protein": 1.5,
+        "carbs": 13.0,
+        "fat": 0.1,
+        "fiber": 1.8,
+        "sugar": 0.8,
+        "sodium_mg": 300.0,
+        "serving_g": 120.0
+    },
+    "capsicum": {
+        "kcal": 31.0,
+        "protein": 1.0,
+        "carbs": 6.0,
+        "fat": 0.3,
+        "fiber": 2.1,
+        "sugar": 4.2,
+        "sodium_mg": 4.0,
+        "serving_g": 100.0
+    },
+    "carrots": {
+        "kcal": 41.0,
+        "protein": 0.9,
+        "carbs": 10.0,
+        "fat": 0.2,
+        "fiber": 2.8,
+        "sugar": 4.7,
+        "sodium_mg": 69.0,
+        "serving_g": 100.0
+    },
+    "cauliflower": {
+        "kcal": 25.0,
+        "protein": 1.9,
+        "carbs": 5.0,
+        "fat": 0.3,
+        "fiber": 2.0,
+        "sugar": 1.9,
+        "sodium_mg": 30.0,
+        "serving_g": 100.0
+    },
+    "chaas": {
+        "kcal": 40.0,
+        "protein": 2.5,
+        "carbs": 3.5,
+        "fat": 1.5,
+        "fiber": 0.0,
+        "sugar": 3.0,
+        "sodium_mg": 150.0,
+        "serving_g": 200.0
+    },
+    "chai": {
+        "kcal": 50.0,
+        "protein": 1.5,
+        "carbs": 7.0,
+        "fat": 1.8,
+        "fiber": 0.0,
+        "sugar": 6.5,
+        "sodium_mg": 25.0,
+        "serving_g": 150.0
+    },
+    "chak_hao_kheer": {
+        "kcal": 140.0,
+        "protein": 3.5,
+        "carbs": 24.0,
+        "fat": 3.5,
+        "fiber": 0.5,
+        "sugar": 12.0,
+        "sodium_mg": 40.0,
+        "serving_g": 150.0
+    },
+    "cham_cham": {
+        "kcal": 300.0,
+        "protein": 7.0,
+        "carbs": 48.0,
+        "fat": 9.0,
+        "fiber": 0.0,
+        "sugar": 40.0,
+        "sodium_mg": 60.0,
+        "serving_g": 50.0
+    },
+    "chana_masala": {
+        "kcal": 140.0,
+        "protein": 6.0,
+        "carbs": 18.0,
+        "fat": 5.0,
+        "fiber": 5.0,
+        "sugar": 3.0,
+        "sodium_mg": 380.0,
+        "serving_g": 200.0
+    },
+    "chapati": {
+        "kcal": 297.0,
+        "protein": 9.0,
+        "carbs": 46.0,
+        "fat": 7.5,
+        "fiber": 4.0,
+        "sugar": 1.0,
+        "sodium_mg": 320.0,
+        "serving_g": 40.0
+    },
+    "chhena_kheeri": {
+        "kcal": 190.0,
+        "protein": 7.0,
+        "carbs": 24.0,
+        "fat": 7.0,
+        "fiber": 0.0,
+        "sugar": 22.0,
+        "sodium_mg": 70.0,
+        "serving_g": 150.0
+    },
+    "chicken_pizza": {
+        "kcal": 260.0,
+        "protein": 12.0,
+        "carbs": 29.0,
+        "fat": 10.0,
+        "fiber": 2.0,
+        "sugar": 3.0,
+        "sodium_mg": 600.0,
+        "serving_g": 110.0
+    },
+    "chicken_razala": {
+        "kcal": 170.0,
+        "protein": 13.0,
+        "carbs": 4.0,
+        "fat": 11.0,
+        "fiber": 1.0,
+        "sugar": 2.0,
+        "sodium_mg": 400.0,
+        "serving_g": 200.0
+    },
+    "chicken_rezala": {
+        "kcal": 170.0,
+        "protein": 13.0,
+        "carbs": 4.0,
+        "fat": 11.0,
+        "fiber": 1.0,
+        "sugar": 2.0,
+        "sodium_mg": 400.0,
+        "serving_g": 200.0
+    },
+    "chicken_tikka": {
+        "kcal": 150.0,
+        "protein": 24.0,
+        "carbs": 3.0,
+        "fat": 5.0,
+        "fiber": 0.5,
+        "sugar": 1.0,
+        "sodium_mg": 450.0,
+        "serving_g": 100.0
+    },
+    "chicken_tikka_masala": {
+        "kcal": 150.0,
+        "protein": 11.0,
+        "carbs": 7.0,
+        "fat": 9.0,
+        "fiber": 1.0,
+        "sugar": 4.0,
+        "sodium_mg": 420.0,
+        "serving_g": 200.0
+    },
+    "chicken_wings": {
+        "kcal": 270.0,
+        "protein": 22.0,
+        "carbs": 5.0,
+        "fat": 18.0,
+        "fiber": 0.0,
+        "sugar": 0.0,
+        "sodium_mg": 600.0,
+        "serving_g": 100.0
+    },
+    "chikki": {
+        "kcal": 480.0,
+        "protein": 12.0,
+        "carbs": 55.0,
+        "fat": 24.0,
+        "fiber": 4.0,
+        "sugar": 40.0,
+        "sodium_mg": 40.0,
+        "serving_g": 30.0
+    },
+    "chilli_pepper": {
+        "kcal": 40.0,
+        "protein": 1.9,
+        "carbs": 9.0,
+        "fat": 0.4,
+        "fiber": 1.5,
+        "sugar": 5.0,
+        "sodium_mg": 9.0,
+        "serving_g": 15.0
+    },
+    "chilli_potato": {
+        "kcal": 190.0,
+        "protein": 3.0,
+        "carbs": 28.0,
+        "fat": 8.0,
+        "fiber": 3.0,
+        "sugar": 4.0,
+        "sodium_mg": 500.0,
+        "serving_g": 120.0
+    },
+    "chivda": {
+        "kcal": 480.0,
+        "protein": 9.0,
+        "carbs": 55.0,
+        "fat": 25.0,
+        "fiber": 4.0,
+        "sugar": 5.0,
+        "sodium_mg": 550.0,
+        "serving_g": 30.0
+    },
+    "chole_bhature": {
+        "kcal": 250.0,
+        "protein": 7.0,
+        "carbs": 32.0,
+        "fat": 11.0,
+        "fiber": 4.0,
+        "sugar": 2.0,
+        "sodium_mg": 420.0,
+        "serving_g": 250.0
+    },
+    "chop_suey": {
+        "kcal": 110.0,
+        "protein": 6.0,
+        "carbs": 12.0,
+        "fat": 4.5,
+        "fiber": 2.0,
+        "sugar": 3.0,
+        "sodium_mg": 500.0,
+        "serving_g": 200.0
+    },
+    "chow_mein": {
+        "kcal": 160.0,
+        "protein": 5.0,
+        "carbs": 24.0,
+        "fat": 5.0,
+        "fiber": 2.0,
+        "sugar": 3.0,
+        "sodium_mg": 520.0,
+        "serving_g": 200.0
+    },
+    "cooked_oatmeal": {
+        "kcal": 71.0,
+        "protein": 2.5,
+        "carbs": 12.0,
+        "fat": 1.5,
+        "fiber": 1.7,
+        "sugar": 0.3,
+        "sodium_mg": 49.0,
+        "serving_g": 240.0
+    },
+    "cooked_pasta": {
+        "kcal": 158.0,
+        "protein": 5.8,
+        "carbs": 31.0,
+        "fat": 0.9,
+        "fiber": 1.8,
+        "sugar": 0.6,
+        "sodium_mg": 1.0,
+        "serving_g": 140.0
+    },
+    "corn": {
+        "kcal": 96.0,
+        "protein": 3.4,
+        "carbs": 21.0,
+        "fat": 1.5,
+        "fiber": 2.4,
+        "sugar": 4.5,
+        "sodium_mg": 15.0,
+        "serving_g": 100.0
+    },
+    "cucumber": {
+        "kcal": 15.0,
+        "protein": 0.7,
+        "carbs": 3.6,
+        "fat": 0.1,
+        "fiber": 0.5,
+        "sugar": 1.7,
+        "sodium_mg": 2.0,
+        "serving_g": 100.0
+    },
+    "daal_baati_churma": {
+        "kcal": 320.0,
+        "protein": 8.0,
+        "carbs": 40.0,
+        "fat": 14.0,
+        "fiber": 4.0,
+        "sugar": 10.0,
+        "sodium_mg": 350.0,
+        "serving_g": 200.0
+    },
+    "daal_puri": {
+        "kcal": 320.0,
+        "protein": 8.0,
+        "carbs": 42.0,
+        "fat": 13.0,
+        "fiber": 3.0,
+        "sugar": 1.5,
+        "sodium_mg": 380.0,
+        "serving_g": 70.0
+    },
+    "dal_khichdi": {
+        "kcal": 120.0,
+        "protein": 4.5,
+        "carbs": 20.0,
+        "fat": 2.5,
+        "fiber": 2.0,
+        "sugar": 1.0,
+        "sodium_mg": 300.0,
+        "serving_g": 250.0
+    },
+    "dal_makhani": {
+        "kcal": 125.0,
+        "protein": 5.5,
+        "carbs": 12.0,
+        "fat": 6.5,
+        "fiber": 4.0,
+        "sugar": 2.0,
+        "sodium_mg": 380.0,
+        "serving_g": 200.0
+    },
+    "dal_tadka": {
+        "kcal": 100.0,
+        "protein": 5.0,
+        "carbs": 14.0,
+        "fat": 3.0,
+        "fiber": 3.5,
+        "sugar": 1.5,
+        "sodium_mg": 350.0,
+        "serving_g": 200.0
+    },
+    "dharwad_pedha": {
+        "kcal": 370.0,
+        "protein": 9.0,
+        "carbs": 55.0,
+        "fat": 13.0,
+        "fiber": 0.0,
+        "sugar": 50.0,
+        "sodium_mg": 60.0,
+        "serving_g": 25.0
+    },
+    "dhokla": {
+        "kcal": 160.0,
+        "protein": 6.0,
+        "carbs": 25.0,
+        "fat": 4.0,
+        "fiber": 2.0,
+        "sugar": 5.0,
+        "sodium_mg": 450.0,
+        "serving_g": 80.0
+    },
+    "doodhpak": {
+        "kcal": 120.0,
+        "protein": 3.5,
+        "carbs": 19.0,
+        "fat": 3.5,
+        "fiber": 0.0,
+        "sugar": 16.0,
+        "sodium_mg": 45.0,
+        "serving_g": 150.0
+    },
+    "double_ka_meetha": {
+        "kcal": 320.0,
+        "protein": 6.0,
+        "carbs": 45.0,
+        "fat": 13.0,
+        "fiber": 1.0,
+        "sugar": 28.0,
+        "sodium_mg": 150.0,
+        "serving_g": 100.0
+    },
+    "doughnut": {
+        "kcal": 420.0,
+        "protein": 5.0,
+        "carbs": 49.0,
+        "fat": 23.0,
+        "fiber": 1.5,
+        "sugar": 22.0,
+        "sodium_mg": 360.0,
+        "serving_g": 60.0
+    },
+    "dum_aloo": {
+        "kcal": 130.0,
+        "protein": 2.5,
+        "carbs": 14.0,
+        "fat": 7.5,
+        "fiber": 2.5,
+        "sugar": 2.0,
+        "sodium_mg": 380.0,
+        "serving_g": 150.0
+    },
+    "falooda": {
+        "kcal": 130.0,
+        "protein": 3.0,
+        "carbs": 22.0,
+        "fat": 3.5,
+        "fiber": 0.5,
+        "sugar": 18.0,
+        "sodium_mg": 50.0,
+        "serving_g": 250.0
+    },
+    "fish_curry": {
+        "kcal": 110.0,
+        "protein": 12.0,
+        "carbs": 4.0,
+        "fat": 5.5,
+        "fiber": 0.8,
+        "sugar": 1.5,
+        "sodium_mg": 420.0,
+        "serving_g": 200.0
+    },
+    "fried_chicken": {
+        "kcal": 270.0,
+        "protein": 19.0,
+        "carbs": 11.0,
+        "fat": 17.0,
+        "fiber": 0.5,
+        "sugar": 0.5,
+        "sodium_mg": 520.0,
+        "serving_g": 120.0
+    },
+    "fried_fish": {
+        "kcal": 230.0,
+        "protein": 19.0,
+        "carbs": 10.0,
+        "fat": 12.0,
+        "fiber": 0.5,
+        "sugar": 0.5,
+        "sodium_mg": 400.0,
+        "serving_g": 100.0
+    },
+    "fried_rice": {
+        "kcal": 165.0,
+        "protein": 4.0,
+        "carbs": 25.0,
+        "fat": 5.5,
+        "fiber": 1.0,
+        "sugar": 1.0,
+        "sodium_mg": 400.0,
+        "serving_g": 200.0
+    },
+    "gajar_ka_halwa": {
+        "kcal": 190.0,
+        "protein": 3.5,
+        "carbs": 28.0,
+        "fat": 7.5,
+        "fiber": 1.5,
+        "sugar": 22.0,
+        "sodium_mg": 50.0,
+        "serving_g": 120.0
+    },
+    "garlic": {
+        "kcal": 149.0,
+        "protein": 6.4,
+        "carbs": 33.0,
+        "fat": 0.5,
+        "fiber": 2.1,
+        "sugar": 1.0,
+        "sodium_mg": 17.0,
+        "serving_g": 5.0
+    },
+    "garlic_bread": {
+        "kcal": 350.0,
+        "protein": 8.0,
+        "carbs": 45.0,
+        "fat": 15.0,
+        "fiber": 2.0,
+        "sugar": 3.0,
+        "sodium_mg": 600.0,
+        "serving_g": 50.0
+    },
+    "garlic_naan": {
+        "kcal": 300.0,
+        "protein": 8.0,
+        "carbs": 47.0,
+        "fat": 9.0,
+        "fiber": 2.0,
+        "sugar": 3.0,
+        "sodium_mg": 500.0,
+        "serving_g": 90.0
+    },
+    "gavvalu": {
+        "kcal": 470.0,
+        "protein": 6.0,
+        "carbs": 65.0,
+        "fat": 20.0,
+        "fiber": 2.0,
+        "sugar": 25.0,
+        "sodium_mg": 40.0,
+        "serving_g": 30.0
+    },
+    "ghevar": {
+        "kcal": 450.0,
+        "protein": 5.0,
+        "carbs": 60.0,
+        "fat": 22.0,
+        "fiber": 1.0,
+        "sugar": 35.0,
+        "sodium_mg": 60.0,
+        "serving_g": 60.0
+    },
+    "ginger": {
+        "kcal": 80.0,
+        "protein": 1.8,
+        "carbs": 18.0,
+        "fat": 0.8,
+        "fiber": 2.0,
+        "sugar": 1.7,
+        "sodium_mg": 13.0,
+        "serving_g": 5.0
+    },
+    "gobi_manchurian": {
+        "kcal": 180.0,
+        "protein": 4.0,
+        "carbs": 22.0,
+        "fat": 8.5,
+        "fiber": 2.5,
+        "sugar": 6.0,
+        "sodium_mg": 650.0,
+        "serving_g": 150.0
+    },
+    "grape": {
+        "kcal": 69.0,
+        "protein": 0.7,
+        "carbs": 18.0,
+        "fat": 0.2,
+        "fiber": 0.9,
+        "sugar": 16.0,
+        "sodium_mg": 2.0,
+        "serving_g": 100.0
+    },
+    "grilled_sandwich": {
+        "kcal": 260.0,
+        "protein": 10.0,
+        "carbs": 32.0,
+        "fat": 10.0,
+        "fiber": 2.5,
+        "sugar": 4.0,
+        "sodium_mg": 600.0,
+        "serving_g": 120.0
+    },
+    "gujhia": {
+        "kcal": 430.0,
+        "protein": 6.0,
+        "carbs": 55.0,
+        "fat": 20.0,
+        "fiber": 2.0,
+        "sugar": 30.0,
+        "sodium_mg": 40.0,
+        "serving_g": 50.0
+    },
+    "gujiya": {
+        "kcal": 430.0,
+        "protein": 6.0,
+        "carbs": 55.0,
+        "fat": 20.0,
+        "fiber": 2.0,
+        "sugar": 30.0,
+        "sodium_mg": 40.0,
+        "serving_g": 50.0
+    },
+    "gulab_jamun": {
+        "kcal": 320.0,
+        "protein": 5.0,
+        "carbs": 52.0,
+        "fat": 11.0,
+        "fiber": 0.5,
+        "sugar": 40.0,
+        "sodium_mg": 80.0,
+        "serving_g": 50.0
+    },
+    "hara_bhara_kabab": {
+        "kcal": 180.0,
+        "protein": 6.0,
+        "carbs": 18.0,
+        "fat": 9.5,
+        "fiber": 4.0,
+        "sugar": 2.0,
+        "sodium_mg": 420.0,
+        "serving_g": 80.0
+    },
+    "hot_dogs": {
+        "kcal": 290.0,
+        "protein": 10.0,
+        "carbs": 24.0,
+        "fat": 17.0,
+        "fiber": 1.0,
+        "sugar": 4.0,
+        "sodium_mg": 780.0,
+        "serving_g": 100.0
+    },
+    "ice_cream": {
+        "kcal": 207.0,
+        "protein": 3.5,
+        "carbs": 24.0,
+        "fat": 11.0,
+        "fiber": 0.7,
+        "sugar": 21.0,
+        "sodium_mg": 80.0,
+        "serving_g": 70.0
+    },
+    "idiyappam": {
+        "kcal": 135.0,
+        "protein": 2.8,
+        "carbs": 29.0,
+        "fat": 0.5,
+        "fiber": 1.0,
+        "sugar": 0.5,
+        "sodium_mg": 60.0,
+        "serving_g": 100.0
+    },
+    "idli": {
+        "kcal": 132.0,
+        "protein": 4.0,
+        "carbs": 27.0,
+        "fat": 0.4,
+        "fiber": 1.2,
+        "sugar": 0.5,
+        "sodium_mg": 250.0,
+        "serving_g": 80.0
+    },
+    "imarti": {
+        "kcal": 400.0,
+        "protein": 4.0,
+        "carbs": 65.0,
+        "fat": 15.0,
+        "fiber": 0.5,
+        "sugar": 45.0,
+        "sodium_mg": 60.0,
+        "serving_g": 40.0
+    },
+    "jalebi": {
+        "kcal": 380.0,
+        "protein": 3.0,
+        "carbs": 62.0,
+        "fat": 14.0,
+        "fiber": 0.5,
+        "sugar": 45.0,
+        "sodium_mg": 50.0,
+        "serving_g": 40.0
+    },
+    "kaathi_rolls": {
+        "kcal": 230.0,
+        "protein": 9.0,
+        "carbs": 28.0,
+        "fat": 9.0,
+        "fiber": 2.0,
+        "sugar": 2.0,
+        "sodium_mg": 500.0,
+        "serving_g": 150.0
+    },
+    "kachori": {
+        "kcal": 380.0,
+        "protein": 8.0,
+        "carbs": 40.0,
+        "fat": 21.0,
+        "fiber": 3.0,
+        "sugar": 2.0,
+        "sodium_mg": 450.0,
+        "serving_g": 60.0
+    },
+    "kadai_paneer": {
+        "kcal": 190.0,
+        "protein": 9.0,
+        "carbs": 8.0,
+        "fat": 14.0,
+        "fiber": 2.0,
+        "sugar": 3.0,
+        "sodium_mg": 420.0,
+        "serving_g": 200.0
+    },
+    "kadhi_pakoda": {
+        "kcal": 130.0,
+        "protein": 5.0,
+        "carbs": 12.0,
+        "fat": 7.0,
+        "fiber": 1.5,
+        "sugar": 3.0,
+        "sodium_mg": 400.0,
+        "serving_g": 200.0
+    },
+    "kajjikaya": {
+        "kcal": 430.0,
+        "protein": 6.0,
+        "carbs": 58.0,
+        "fat": 19.0,
+        "fiber": 1.5,
+        "sugar": 22.0,
+        "sodium_mg": 40.0,
+        "serving_g": 40.0
+    },
+    "kaju_katli": {
+        "kcal": 480.0,
+        "protein": 10.0,
+        "carbs": 60.0,
+        "fat": 23.0,
+        "fiber": 1.0,
+        "sugar": 50.0,
+        "sodium_mg": 20.0,
+        "serving_g": 30.0
+    },
+    "kakinada_khaja": {
+        "kcal": 440.0,
+        "protein": 5.0,
+        "carbs": 62.0,
+        "fat": 19.0,
+        "fiber": 1.0,
+        "sugar": 25.0,
+        "sodium_mg": 60.0,
+        "serving_g": 50.0
+    },
+    "kalakand": {
+        "kcal": 310.0,
+        "protein": 9.0,
+        "carbs": 40.0,
+        "fat": 13.0,
+        "fiber": 0.0,
+        "sugar": 38.0,
+        "sodium_mg": 90.0,
+        "serving_g": 50.0
+    },
+    "karela_bharta": {
+        "kcal": 100.0,
+        "protein": 2.5,
+        "carbs": 9.0,
+        "fat": 6.0,
+        "fiber": 3.5,
+        "sugar": 2.0,
+        "sodium_mg": 300.0,
+        "serving_g": 100.0
+    },
+    "kathi_roll": {
+        "kcal": 230.0,
+        "protein": 9.0,
+        "carbs": 28.0,
+        "fat": 9.0,
+        "fiber": 2.0,
+        "sugar": 2.0,
+        "sodium_mg": 500.0,
+        "serving_g": 150.0
+    },
+    "kebabs": {
+        "kcal": 230.0,
+        "protein": 16.0,
+        "carbs": 6.0,
+        "fat": 16.0,
+        "fiber": 1.0,
+        "sugar": 1.0,
+        "sodium_mg": 500.0,
+        "serving_g": 100.0
+    },
+    "khakhra": {
+        "kcal": 400.0,
+        "protein": 12.0,
+        "carbs": 60.0,
+        "fat": 12.0,
+        "fiber": 6.0,
+        "sugar": 2.0,
+        "sodium_mg": 500.0,
+        "serving_g": 30.0
+    },
+    "khandvi": {
+        "kcal": 150.0,
+        "protein": 6.0,
+        "carbs": 18.0,
+        "fat": 6.0,
+        "fiber": 1.5,
+        "sugar": 3.0,
+        "sodium_mg": 450.0,
+        "serving_g": 80.0
+    },
+    "kheer": {
+        "kcal": 130.0,
+        "protein": 3.5,
+        "carbs": 20.0,
+        "fat": 4.0,
+        "fiber": 0.3,
+        "sugar": 14.0,
+        "sodium_mg": 50.0,
+        "serving_g": 150.0
+    },
+    "khichdi": {
+        "kcal": 115.0,
+        "protein": 4.0,
+        "carbs": 19.0,
+        "fat": 2.5,
+        "fiber": 1.5,
+        "sugar": 0.8,
+        "sodium_mg": 280.0,
+        "serving_g": 250.0
+    },
+    "khubani_ka_meetha": {
+        "kcal": 160.0,
+        "protein": 1.5,
+        "carbs": 36.0,
+        "fat": 2.5,
+        "fiber": 3.0,
+        "sugar": 30.0,
+        "sodium_mg": 15.0,
+        "serving_g": 100.0
+    },
+    "kiwi": {
+        "kcal": 61.0,
+        "protein": 1.1,
+        "carbs": 15.0,
+        "fat": 0.5,
+        "fiber": 3.0,
+        "sugar": 9.0,
+        "sodium_mg": 3.0,
+        "serving_g": 70.0
+    },
+    "kofta": {
+        "kcal": 190.0,
+        "protein": 7.0,
+        "carbs": 10.0,
+        "fat": 13.0,
+        "fiber": 2.0,
+        "sugar": 2.0,
+        "sodium_mg": 420.0,
+        "serving_g": 150.0
+    },
+    "kulfi": {
+        "kcal": 190.0,
+        "protein": 5.0,
+        "carbs": 22.0,
+        "fat": 9.0,
+        "fiber": 0.0,
+        "sugar": 20.0,
+        "sodium_mg": 70.0,
+        "serving_g": 80.0
+    },
+    "kuzhi_paniyaram": {
+        "kcal": 190.0,
+        "protein": 4.0,
+        "carbs": 28.0,
+        "fat": 7.0,
+        "fiber": 1.5,
+        "sugar": 1.0,
+        "sodium_mg": 300.0,
+        "serving_g": 80.0
+    },
+    "lassi": {
+        "kcal": 70.0,
+        "protein": 3.0,
+        "carbs": 10.0,
+        "fat": 2.0,
+        "fiber": 0.0,
+        "sugar": 9.0,
+        "sodium_mg": 50.0,
+        "serving_g": 250.0
+    },
+    "ledikeni": {
+        "kcal": 330.0,
+        "protein": 6.0,
+        "carbs": 52.0,
+        "fat": 11.0,
+        "fiber": 0.0,
+        "sugar": 40.0,
+        "sodium_mg": 70.0,
+        "serving_g": 50.0
+    },
+    "lemon": {
+        "kcal": 29.0,
+        "protein": 1.1,
+        "carbs": 9.0,
+        "fat": 0.3,
+        "fiber": 2.8,
+        "sugar": 2.5,
+        "sodium_mg": 2.0,
+        "serving_g": 60.0
+    },
+    "lemonade": {
+        "kcal": 40.0,
+        "protein": 0.1,
+        "carbs": 10.0,
+        "fat": 0.0,
+        "fiber": 0.0,
+        "sugar": 9.5,
+        "sodium_mg": 5.0,
+        "serving_g": 250.0
+    },
+    "lettuce": {
+        "kcal": 15.0,
+        "protein": 1.4,
+        "carbs": 2.9,
+        "fat": 0.2,
+        "fiber": 1.3,
+        "sugar": 0.8,
+        "sodium_mg": 28.0,
+        "serving_g": 50.0
+    },
+    "litti_chokha": {
+        "kcal": 230.0,
+        "protein": 7.0,
+        "carbs": 35.0,
+        "fat": 7.0,
+        "fiber": 5.0,
+        "sugar": 2.0,
+        "sodium_mg": 400.0,
+        "serving_g": 150.0
+    },
+    "lyangcha": {
+        "kcal": 350.0,
+        "protein": 6.0,
+        "carbs": 55.0,
+        "fat": 12.0,
+        "fiber": 0.0,
+        "sugar": 45.0,
+        "sodium_mg": 60.0,
+        "serving_g": 50.0
+    },
+    "maach_jhol": {
+        "kcal": 90.0,
+        "protein": 10.0,
+        "carbs": 3.0,
+        "fat": 4.0,
+        "fiber": 0.8,
+        "sugar": 1.0,
+        "sodium_mg": 380.0,
+        "serving_g": 200.0
+    },
+    "macaroni_salad": {
+        "kcal": 160.0,
+        "protein": 3.0,
+        "carbs": 20.0,
+        "fat": 8.0,
+        "fiber": 1.0,
+        "sugar": 3.0,
+        "sodium_mg": 300.0,
+        "serving_g": 150.0
+    },
+    "makki_di_roti_sarson_da_saag": {
+        "kcal": 150.0,
+        "protein": 4.0,
+        "carbs": 20.0,
+        "fat": 6.0,
+        "fiber": 4.0,
+        "sugar": 1.5,
+        "sodium_mg": 350.0,
+        "serving_g": 250.0
+    },
+    "malapua": {
+        "kcal": 330.0,
+        "protein": 4.0,
+        "carbs": 45.0,
+        "fat": 15.0,
+        "fiber": 1.0,
+        "sugar": 25.0,
+        "sodium_mg": 60.0,
+        "serving_g": 60.0
+    },
+    "malpua": {
+        "kcal": 330.0,
+        "protein": 4.0,
+        "carbs": 45.0,
+        "fat": 15.0,
+        "fiber": 1.0,
+        "sugar": 25.0,
+        "sodium_mg": 60.0,
+        "serving_g": 60.0
+    },
+    "mango": {
+        "kcal": 60.0,
+        "protein": 0.8,
+        "carbs": 15.0,
+        "fat": 0.4,
+        "fiber": 1.6,
+        "sugar": 14.0,
+        "sodium_mg": 1.0,
+        "serving_g": 150.0
+    },
+    "margherita_pizza": {
+        "kcal": 250.0,
+        "protein": 11.0,
+        "carbs": 30.0,
+        "fat": 9.0,
+        "fiber": 2.0,
+        "sugar": 3.0,
+        "sodium_mg": 600.0,
+        "serving_g": 110.0
+    },
+    "masala_dosa": {
+        "kcal": 168.0,
+        "protein": 3.9,
+        "carbs": 28.0,
+        "fat": 4.5,
+        "fiber": 2.0,
+        "sugar": 1.0,
+        "sodium_mg": 380.0,
+        "serving_g": 120.0
+    },
+    "masala_papad": {
+        "kcal": 200.0,
+        "protein": 8.0,
+        "carbs": 25.0,
+        "fat": 7.0,
+        "fiber": 4.0,
+        "sugar": 3.0,
+        "sodium_mg": 700.0,
+        "serving_g": 30.0
+    },
+    "medu_vada": {
+        "kcal": 260.0,
+        "protein": 9.0,
+        "carbs": 26.0,
+        "fat": 13.0,
+        "fiber": 3.0,
+        "sugar": 1.0,
+        "sodium_mg": 380.0,
+        "serving_g": 50.0
+    },
+    "misal_pav": {
+        "kcal": 170.0,
+        "protein": 7.0,
+        "carbs": 24.0,
+        "fat": 5.0,
+        "fiber": 5.0,
+        "sugar": 3.0,
+        "sodium_mg": 500.0,
+        "serving_g": 250.0
+    },
+    "mishti_doi": {
+        "kcal": 130.0,
+        "protein": 3.5,
+        "carbs": 20.0,
+        "fat": 4.0,
+        "fiber": 0.0,
+        "sugar": 19.0,
+        "sodium_mg": 50.0,
+        "serving_g": 100.0
+    },
+    "misi_roti": {
+        "kcal": 280.0,
+        "protein": 10.0,
+        "carbs": 42.0,
+        "fat": 8.0,
+        "fiber": 5.0,
+        "sugar": 1.0,
+        "sodium_mg": 380.0,
+        "serving_g": 50.0
+    },
+    "missi_roti": {
+        "kcal": 280.0,
+        "protein": 10.0,
+        "carbs": 42.0,
+        "fat": 8.0,
+        "fiber": 5.0,
+        "sugar": 1.0,
+        "sodium_mg": 380.0,
+        "serving_g": 50.0
+    },
+    "misti_doi": {
+        "kcal": 130.0,
+        "protein": 3.5,
+        "carbs": 20.0,
+        "fat": 4.0,
+        "fiber": 0.0,
+        "sugar": 19.0,
+        "sodium_mg": 50.0,
+        "serving_g": 100.0
+    },
+    "modak": {
+        "kcal": 230.0,
+        "protein": 3.0,
+        "carbs": 38.0,
+        "fat": 7.0,
+        "fiber": 2.0,
+        "sugar": 18.0,
+        "sodium_mg": 20.0,
+        "serving_g": 50.0
+    },
+    "momos": {
+        "kcal": 190.0,
+        "protein": 8.0,
+        "carbs": 24.0,
+        "fat": 6.0,
+        "fiber": 1.5,
+        "sugar": 1.0,
+        "sodium_mg": 380.0,
+        "serving_g": 100.0
+    },
+    "moong_dal_halwa": {
+        "kcal": 400.0,
+        "protein": 7.0,
+        "carbs": 45.0,
+        "fat": 22.0,
+        "fiber": 2.0,
+        "sugar": 30.0,
+        "sodium_mg": 40.0,
+        "serving_g": 80.0
+    },
+    "muffin": {
+        "kcal": 380.0,
+        "protein": 5.0,
+        "carbs": 50.0,
+        "fat": 18.0,
+        "fiber": 1.5,
+        "sugar": 28.0,
+        "sodium_mg": 350.0,
+        "serving_g": 80.0
+    },
+    "murukku": {
+        "kcal": 520.0,
+        "protein": 9.0,
+        "carbs": 55.0,
+        "fat": 29.0,
+        "fiber": 3.0,
+        "sugar": 1.0,
+        "sodium_mg": 700.0,
+        "serving_g": 30.0
+    },
+    "mysore_pak": {
+        "kcal": 540.0,
+        "protein": 8.0,
+        "carbs": 50.0,
+        "fat": 34.0,
+        "fiber": 2.0,
+        "sugar": 40.0,
+        "sodium_mg": 40.0,
+        "serving_g": 40.0
+    },
+    "naan": {
+        "kcal": 290.0,
+        "protein": 9.0,
+        "carbs": 50.0,
+        "fat": 6.0,
+        "fiber": 2.0,
+        "sugar": 3.0,
+        "sodium_mg": 430.0,
+        "serving_g": 90.0
+    },
+    "naan_bread": {
+        "kcal": 290.0,
+        "protein": 9.0,
+        "carbs": 50.0,
+        "fat": 6.0,
+        "fiber": 2.0,
+        "sugar": 3.0,
+        "sodium_mg": 430.0,
+        "serving_g": 90.0
+    },
+    "navratan_korma": {
+        "kcal": 150.0,
+        "protein": 4.0,
+        "carbs": 13.0,
+        "fat": 9.0,
+        "fiber": 2.5,
+        "sugar": 5.0,
+        "sodium_mg": 350.0,
+        "serving_g": 200.0
+    },
+    "neer_dosa": {
+        "kcal": 130.0,
+        "protein": 2.5,
+        "carbs": 28.0,
+        "fat": 0.8,
+        "fiber": 0.8,
+        "sugar": 0.5,
+        "sodium_mg": 200.0,
+        "serving_g": 60.0
+    },
+    "omelette": {
+        "kcal": 154.0,
+        "protein": 11.0,
+        "carbs": 0.6,
+        "fat": 12.0,
+        "fiber": 0.0,
+        "sugar": 0.4,
+        "sodium_mg": 155.0,
+        "serving_g": 100.0
+    },
+    "onion": {
+        "kcal": 40.0,
+        "protein": 1.1,
+        "carbs": 9.3,
+        "fat": 0.1,
+        "fiber": 1.7,
+        "sugar": 4.2,
+        "sodium_mg": 4.0,
+        "serving_g": 100.0
+    },
+    "onion_pakoda": {
+        "kcal": 330.0,
+        "protein": 7.0,
+        "carbs": 30.0,
+        "fat": 20.0,
+        "fiber": 3.0,
+        "sugar": 3.0,
+        "sodium_mg": 500.0,
+        "serving_g": 60.0
+    },
+    "orange": {
+        "kcal": 47.0,
+        "protein": 0.9,
+        "carbs": 12.0,
+        "fat": 0.1,
+        "fiber": 2.4,
+        "sugar": 9.0,
+        "sodium_mg": 0.0,
+        "serving_g": 130.0
+    },
+    "paani_puri": {
+        "kcal": 190.0,
+        "protein": 3.5,
+        "carbs": 28.0,
+        "fat": 7.0,
+        "fiber": 2.5,
+        "sugar": 4.0,
+        "sodium_mg": 550.0,
+        "serving_g": 100.0
+    },
+    "pakode": {
+        "kcal": 330.0,
+        "protein": 7.0,
+        "carbs": 30.0,
+        "fat": 20.0,
+        "fiber": 3.0,
+        "sugar": 2.0,
+        "sodium_mg": 480.0,
+        "serving_g": 60.0
+    },
+    "palak_paneer": {
+        "kcal": 150.0,
+        "protein": 7.0,
+        "carbs": 6.0,
+        "fat": 11.0,
+        "fiber": 2.0,
+        "sugar": 2.0,
+        "sodium_mg": 380.0,
+        "serving_g": 200.0
+    },
+    "pan_cake": {
+        "kcal": 227.0,
+        "protein": 6.0,
+        "carbs": 28.0,
+        "fat": 10.0,
+        "fiber": 1.0,
+        "sugar": 6.0,
+        "sodium_mg": 430.0,
+        "serving_g": 80.0
+    },
+    "pan_fried_prawns": {
+        "kcal": 180.0,
+        "protein": 20.0,
+        "carbs": 3.0,
+        "fat": 10.0,
+        "fiber": 0.3,
+        "sugar": 0.0,
+        "sodium_mg": 450.0,
+        "serving_g": 100.0
+    },
+    "paneer_butter_masala": {
+        "kcal": 240.0,
+        "protein": 9.0,
+        "carbs": 9.0,
+        "fat": 19.0,
+        "fiber": 1.5,
+        "sugar": 3.0,
+        "sodium_mg": 450.0,
+        "serving_g": 200.0
+    },
+    "paneer_masala": {
+        "kcal": 190.0,
+        "protein": 9.0,
+        "carbs": 8.0,
+        "fat": 14.0,
+        "fiber": 2.0,
+        "sugar": 3.0,
+        "sodium_mg": 400.0,
+        "serving_g": 200.0
+    },
+    "paneer_pizza": {
+        "kcal": 270.0,
+        "protein": 12.0,
+        "carbs": 29.0,
+        "fat": 12.0,
+        "fiber": 2.0,
+        "sugar": 3.0,
+        "sodium_mg": 580.0,
+        "serving_g": 110.0
+    },
+    "pani_puri": {
+        "kcal": 190.0,
+        "protein": 3.5,
+        "carbs": 28.0,
+        "fat": 7.0,
+        "fiber": 2.5,
+        "sugar": 4.0,
+        "sodium_mg": 550.0,
+        "serving_g": 100.0
+    },
+    "paniyaram": {
+        "kcal": 190.0,
+        "protein": 4.0,
+        "carbs": 28.0,
+        "fat": 7.0,
+        "fiber": 1.5,
+        "sugar": 1.0,
+        "sodium_mg": 300.0,
+        "serving_g": 80.0
+    },
+    "papad": {
+        "kcal": 370.0,
+        "protein": 25.0,
+        "carbs": 50.0,
+        "fat": 3.0,
+        "fiber": 8.0,
+        "sugar": 2.0,
+        "sodium_mg": 1800.0,
+        "serving_g": 10.0
+    },
+    "papdi_chaat": {
+        "kcal": 190.0,
+        "protein": 5.0,
+        "carbs": 24.0,
+        "fat": 8.0,
+        "fiber": 3.0,
+        "sugar": 6.0,
+        "sodium_mg": 500.0,
+        "serving_g": 150.0
+    },
+    "paprika": {
+        "kcal": 282.0,
+        "protein": 14.0,
+        "carbs": 54.0,
+        "fat": 13.0,
+        "fiber": 35.0,
+        "sugar": 10.0,
+        "sodium_mg": 68.0,
+        "serving_g": 3.0
+    },
+    "paratha": {
+        "kcal": 300.0,
+        "protein": 7.0,
+        "carbs": 41.0,
+        "fat": 12.0,
+        "fiber": 3.0,
+        "sugar": 1.0,
+        "sodium_mg": 400.0,
+        "serving_g": 80.0
+    },
+    "patrode": {
+        "kcal": 150.0,
+        "protein": 3.5,
+        "carbs": 18.0,
+        "fat": 7.0,
+        "fiber": 4.0,
+        "sugar": 2.0,
+        "sodium_mg": 350.0,
+        "serving_g": 100.0
+    },
+    "pav_bhaji": {
+        "kcal": 150.0,
+        "protein": 4.0,
+        "carbs": 20.0,
+        "fat": 6.0,
+        "fiber": 3.5,
+        "sugar": 3.0,
+        "sodium_mg": 500.0,
+        "serving_g": 250.0
+    },
+    "peanut_chikki": {
+        "kcal": 490.0,
+        "protein": 15.0,
+        "carbs": 52.0,
+        "fat": 26.0,
+        "fiber": 5.0,
+        "sugar": 38.0,
+        "sodium_mg": 50.0,
+        "serving_g": 30.0
+    },
+    "pear": {
+        "kcal": 57.0,
+        "protein": 0.4,
+        "carbs": 15.0,
+        "fat": 0.1,
+        "fiber": 3.1,
+        "sugar": 10.0,
+        "sodium_mg": 1.0,
+        "serving_g": 180.0
+    },
+    "peas": {
+        "kcal": 81.0,
+        "protein": 5.4,
+        "carbs": 14.0,
+        "fat": 0.4,
+        "fiber": 5.7,
+        "sugar": 5.7,
+        "sodium_mg": 5.0,
+        "serving_g": 100.0
+    },
+    "peda": {
+        "kcal": 370.0,
+        "protein": 9.0,
+        "carbs": 55.0,
+        "fat": 13.0,
+        "fiber": 0.0,
+        "sugar": 50.0,
+        "sodium_mg": 60.0,
+        "serving_g": 25.0
+    },
+    "pepperoni_pizza": {
+        "kcal": 270.0,
+        "protein": 12.0,
+        "carbs": 28.0,
+        "fat": 13.0,
+        "fiber": 2.0,
+        "sugar": 3.0,
+        "sodium_mg": 680.0,
+        "serving_g": 110.0
+    },
+    "phirni": {
+        "kcal": 140.0,
+        "protein": 4.0,
+        "carbs": 22.0,
+        "fat": 4.0,
+        "fiber": 0.2,
+        "sugar": 16.0,
+        "sodium_mg": 50.0,
+        "serving_g": 120.0
+    },
+    "pineapple": {
+        "kcal": 50.0,
+        "protein": 0.5,
+        "carbs": 13.0,
+        "fat": 0.1,
+        "fiber": 1.4,
+        "sugar": 10.0,
+        "sodium_mg": 1.0,
+        "serving_g": 165.0
+    },
+    "pithe": {
+        "kcal": 230.0,
+        "protein": 3.0,
+        "carbs": 38.0,
+        "fat": 7.0,
+        "fiber": 2.0,
+        "sugar": 15.0,
+        "sodium_mg": 30.0,
+        "serving_g": 50.0
+    },
+    "pizza": {
+        "kcal": 270.0,
+        "protein": 11.0,
+        "carbs": 33.0,
+        "fat": 10.0,
+        "fiber": 2.0,
+        "sugar": 4.0,
+        "sodium_mg": 600.0,
+        "serving_g": 110.0
+    },
+    "poha": {
+        "kcal": 130.0,
+        "protein": 2.5,
+        "carbs": 25.0,
+        "fat": 2.5,
+        "fiber": 1.5,
+        "sugar": 1.0,
+        "sodium_mg": 300.0,
+        "serving_g": 150.0
+    },
+    "pomegranate": {
+        "kcal": 83.0,
+        "protein": 1.7,
+        "carbs": 19.0,
+        "fat": 1.2,
+        "fiber": 4.0,
+        "sugar": 14.0,
+        "sodium_mg": 3.0,
+        "serving_g": 100.0
+    },
+    "pongal": {
+        "kcal": 120.0,
+        "protein": 4.0,
+        "carbs": 18.0,
+        "fat": 3.5,
+        "fiber": 1.5,
+        "sugar": 0.5,
+        "sodium_mg": 280.0,
+        "serving_g": 200.0
+    },
+    "poornalu": {
+        "kcal": 260.0,
+        "protein": 4.0,
+        "carbs": 40.0,
+        "fat": 9.0,
+        "fiber": 2.0,
+        "sugar": 18.0,
+        "sodium_mg": 30.0,
+        "serving_g": 50.0
+    },
+    "pootharekulu": {
+        "kcal": 420.0,
+        "protein": 4.0,
+        "carbs": 75.0,
+        "fat": 12.0,
+        "fiber": 0.5,
+        "sugar": 50.0,
+        "sodium_mg": 20.0,
+        "serving_g": 30.0
+    },
+    "popcorn": {
+        "kcal": 387.0,
+        "protein": 13.0,
+        "carbs": 78.0,
+        "fat": 4.5,
+        "fiber": 15.0,
+        "sugar": 1.0,
+        "sodium_mg": 8.0,
+        "serving_g": 20.0
+    },
+    "puri_bhaji": {
+        "kcal": 220.0,
+        "protein": 5.0,
+        "carbs": 26.0,
+        "fat": 11.0,
+        "fiber": 3.0,
+        "sugar": 2.0,
+        "sodium_mg": 450.0,
+        "serving_g": 200.0
+    },
+    "qubani_ka_meetha": {
+        "kcal": 160.0,
+        "protein": 1.5,
+        "carbs": 36.0,
+        "fat": 2.5,
+        "fiber": 3.0,
+        "sugar": 30.0,
+        "sodium_mg": 15.0,
+        "serving_g": 100.0
+    },
+    "rabri": {
+        "kcal": 200.0,
+        "protein": 6.0,
+        "carbs": 22.0,
+        "fat": 10.0,
+        "fiber": 0.0,
+        "sugar": 20.0,
+        "sodium_mg": 80.0,
+        "serving_g": 100.0
+    },
+    "radish": {
+        "kcal": 16.0,
+        "protein": 0.7,
+        "carbs": 3.4,
+        "fat": 0.1,
+        "fiber": 1.6,
+        "sugar": 1.9,
+        "sodium_mg": 39.0,
+        "serving_g": 50.0
+    },
+    "raj_kachori": {
+        "kcal": 260.0,
+        "protein": 6.0,
+        "carbs": 32.0,
+        "fat": 12.0,
+        "fiber": 3.0,
+        "sugar": 5.0,
+        "sodium_mg": 500.0,
+        "serving_g": 120.0
+    },
+    "rajma": {
+        "kcal": 130.0,
+        "protein": 6.0,
+        "carbs": 18.0,
+        "fat": 4.0,
+        "fiber": 5.0,
+        "sugar": 1.5,
+        "sodium_mg": 350.0,
+        "serving_g": 200.0
+    },
+    "rajma_chawal": {
+        "kcal": 140.0,
+        "protein": 5.0,
+        "carbs": 24.0,
+        "fat": 2.5,
+        "fiber": 3.0,
+        "sugar": 1.0,
+        "sodium_mg": 330.0,
+        "serving_g": 300.0
+    },
+    "ras_malai": {
+        "kcal": 190.0,
+        "protein": 6.0,
+        "carbs": 25.0,
+        "fat": 7.0,
+        "fiber": 0.0,
+        "sugar": 23.0,
+        "sodium_mg": 70.0,
+        "serving_g": 60.0
+    },
+    "rasgulla": {
+        "kcal": 186.0,
+        "protein": 4.0,
+        "carbs": 38.0,
+        "fat": 1.5,
+        "fiber": 0.0,
+        "sugar": 33.0,
+        "sodium_mg": 40.0,
+        "serving_g": 50.0
+    },
+    "rava_dosa": {
+        "kcal": 190.0,
+        "protein": 4.0,
+        "carbs": 26.0,
+        "fat": 8.0,
+        "fiber": 1.0,
+        "sugar": 1.0,
+        "sodium_mg": 380.0,
+        "serving_g": 80.0
+    },
+    "rice_cooked": {
+        "kcal": 130.0,
+        "protein": 2.7,
+        "carbs": 28.0,
+        "fat": 0.3,
+        "fiber": 0.4,
+        "sugar": 0.0,
+        "sodium_mg": 1.0,
+        "serving_g": 150.0
+    },
+    "sabudana_khichdi": {
+        "kcal": 190.0,
+        "protein": 2.0,
+        "carbs": 30.0,
+        "fat": 7.0,
+        "fiber": 1.0,
+        "sugar": 1.0,
+        "sodium_mg": 300.0,
+        "serving_g": 150.0
+    },
+    "sabudana_vada": {
+        "kcal": 270.0,
+        "protein": 3.0,
+        "carbs": 40.0,
+        "fat": 11.0,
+        "fiber": 1.5,
+        "sugar": 1.0,
+        "sodium_mg": 350.0,
+        "serving_g": 50.0
+    },
+    "samosa": {
+        "kcal": 262.0,
+        "protein": 4.0,
+        "carbs": 30.0,
+        "fat": 14.0,
+        "fiber": 2.5,
+        "sugar": 1.5,
+        "sodium_mg": 420.0,
+        "serving_g": 60.0
+    },
+    "sandesh": {
+        "kcal": 290.0,
+        "protein": 9.0,
+        "carbs": 42.0,
+        "fat": 9.0,
+        "fiber": 0.0,
+        "sugar": 38.0,
+        "sodium_mg": 60.0,
+        "serving_g": 40.0
+    },
+    "sandwich": {
+        "kcal": 230.0,
+        "protein": 9.0,
+        "carbs": 30.0,
+        "fat": 8.0,
+        "fiber": 2.0,
+        "sugar": 4.0,
+        "sodium_mg": 520.0,
+        "serving_g": 120.0
+    },
+    "scrambled_eggs": {
+        "kcal": 148.0,
+        "protein": 10.0,
+        "carbs": 1.6,
+        "fat": 11.0,
+        "fiber": 0.0,
+        "sugar": 1.5,
+        "sodium_mg": 145.0,
+        "serving_g": 100.0
+    },
+    "seekh_kebab": {
+        "kcal": 220.0,
+        "protein": 17.0,
+        "carbs": 5.0,
+        "fat": 15.0,
+        "fiber": 1.0,
+        "sugar": 1.0,
+        "sodium_mg": 550.0,
+        "serving_g": 100.0
+    },
+    "set_dosa": {
+        "kcal": 160.0,
+        "protein": 3.5,
+        "carbs": 30.0,
+        "fat": 2.5,
+        "fiber": 1.0,
+        "sugar": 0.5,
+        "sodium_mg": 250.0,
+        "serving_g": 70.0
+    },
+    "sev_puri": {
+        "kcal": 250.0,
+        "protein": 5.0,
+        "carbs": 32.0,
+        "fat": 11.0,
+        "fiber": 3.0,
+        "sugar": 5.0,
+        "sodium_mg": 550.0,
+        "serving_g": 100.0
+    },
+    "shankarpali": {
+        "kcal": 430.0,
+        "protein": 6.0,
+        "carbs": 58.0,
+        "fat": 19.0,
+        "fiber": 2.0,
+        "sugar": 18.0,
+        "sodium_mg": 150.0,
+        "serving_g": 30.0
+    },
+    "sheer_khurma": {
+        "kcal": 150.0,
+        "protein": 4.0,
+        "carbs": 24.0,
+        "fat": 4.5,
+        "fiber": 1.0,
+        "sugar": 18.0,
+        "sodium_mg": 50.0,
+        "serving_g": 150.0
+    },
+    "sheer_korma": {
+        "kcal": 150.0,
+        "protein": 4.0,
+        "carbs": 24.0,
+        "fat": 4.5,
+        "fiber": 1.0,
+        "sugar": 18.0,
+        "sodium_mg": 50.0,
+        "serving_g": 150.0
+    },
+    "sheera": {
+        "kcal": 230.0,
+        "protein": 3.0,
+        "carbs": 35.0,
+        "fat": 9.0,
+        "fiber": 1.0,
+        "sugar": 22.0,
+        "sodium_mg": 30.0,
+        "serving_g": 100.0
+    },
+    "shelled_soy_bean": {
+        "kcal": 121.0,
+        "protein": 12.0,
+        "carbs": 9.0,
+        "fat": 5.0,
+        "fiber": 5.0,
+        "sugar": 2.0,
+        "sodium_mg": 6.0,
+        "serving_g": 100.0
+    },
+    "shrikhand": {
+        "kcal": 200.0,
+        "protein": 5.0,
+        "carbs": 30.0,
+        "fat": 7.0,
+        "fiber": 0.0,
+        "sugar": 28.0,
+        "sodium_mg": 60.0,
+        "serving_g": 100.0
+    },
+    "sohan_halwa": {
+        "kcal": 450.0,
+        "protein": 5.0,
+        "carbs": 55.0,
+        "fat": 25.0,
+        "fiber": 0.5,
+        "sugar": 40.0,
+        "sodium_mg": 50.0,
+        "serving_g": 40.0
+    },
+    "sohan_papdi": {
+        "kcal": 500.0,
+        "protein": 7.0,
+        "carbs": 60.0,
+        "fat": 26.0,
+        "fiber": 1.0,
+        "sugar": 35.0,
+        "sodium_mg": 50.0,
+        "serving_g": 30.0
+    },
+    "solkadhi": {
+        "kcal": 60.0,
+        "protein": 1.0,
+        "carbs": 6.0,
+        "fat": 4.0,
+        "fiber": 0.5,
+        "sugar": 2.0,
+        "sodium_mg": 200.0,
+        "serving_g": 150.0
+    },
+    "spinach": {
+        "kcal": 23.0,
+        "protein": 2.9,
+        "carbs": 3.6,
+        "fat": 0.4,
+        "fiber": 2.2,
+        "sugar": 0.4,
+        "sodium_mg": 79.0,
+        "serving_g": 100.0
+    },
+    "spring_rolls": {
+        "kcal": 230.0,
+        "protein": 6.0,
+        "carbs": 26.0,
+        "fat": 11.0,
+        "fiber": 2.0,
+        "sugar": 2.0,
+        "sodium_mg": 500.0,
+        "serving_g": 80.0
+    },
+    "sprouts": {
+        "kcal": 30.0,
+        "protein": 3.0,
+        "carbs": 6.0,
+        "fat": 0.2,
+        "fiber": 1.8,
+        "sugar": 0.0,
+        "sodium_mg": 6.0,
+        "serving_g": 100.0
+    },
+    "steamed_momo": {
+        "kcal": 170.0,
+        "protein": 8.0,
+        "carbs": 24.0,
+        "fat": 4.5,
+        "fiber": 1.5,
+        "sugar": 1.0,
+        "sodium_mg": 380.0,
+        "serving_g": 100.0
+    },
+    "stuffed_karela": {
+        "kcal": 110.0,
+        "protein": 3.0,
+        "carbs": 10.0,
+        "fat": 6.5,
+        "fiber": 4.0,
+        "sugar": 2.0,
+        "sodium_mg": 320.0,
+        "serving_g": 100.0
+    },
+    "sunny_side_up_eggs": {
+        "kcal": 196.0,
+        "protein": 14.0,
+        "carbs": 0.8,
+        "fat": 15.0,
+        "fiber": 0.0,
+        "sugar": 0.4,
+        "sodium_mg": 200.0,
+        "serving_g": 50.0
+    },
+    "sutar_feni": {
+        "kcal": 430.0,
+        "protein": 6.0,
+        "carbs": 60.0,
+        "fat": 18.0,
+        "fiber": 1.0,
+        "sugar": 30.0,
+        "sodium_mg": 50.0,
+        "serving_g": 40.0
+    },
+    "sweet_potatoes": {
+        "kcal": 86.0,
+        "protein": 1.6,
+        "carbs": 20.0,
+        "fat": 0.1,
+        "fiber": 3.0,
+        "sugar": 4.2,
+        "sodium_mg": 55.0,
+        "serving_g": 130.0
+    },
+    "taco": {
+        "kcal": 226.0,
+        "protein": 9.0,
+        "carbs": 20.0,
+        "fat": 12.0,
+        "fiber": 3.0,
+        "sugar": 2.0,
+        "sodium_mg": 400.0,
+        "serving_g": 100.0
+    },
+    "thali": {
+        "kcal": 150.0,
+        "protein": 5.0,
+        "carbs": 22.0,
+        "fat": 4.5,
+        "fiber": 3.0,
+        "sugar": 3.0,
+        "sodium_mg": 400.0,
+        "serving_g": 500.0
+    },
+    "thukpa": {
+        "kcal": 90.0,
+        "protein": 5.0,
+        "carbs": 12.0,
+        "fat": 2.5,
+        "fiber": 1.5,
+        "sugar": 1.5,
+        "sodium_mg": 450.0,
+        "serving_g": 350.0
+    },
+    "tiramisu": {
+        "kcal": 285.0,
+        "protein": 5.0,
+        "carbs": 31.0,
+        "fat": 16.0,
+        "fiber": 0.5,
+        "sugar": 22.0,
+        "sodium_mg": 60.0,
+        "serving_g": 120.0
+    },
+    "toast": {
+        "kcal": 265.0,
+        "protein": 9.0,
+        "carbs": 49.0,
+        "fat": 3.2,
+        "fiber": 2.7,
+        "sugar": 5.0,
+        "sodium_mg": 490.0,
+        "serving_g": 30.0
+    },
+    "tomato": {
+        "kcal": 18.0,
+        "protein": 0.9,
+        "carbs": 3.9,
+        "fat": 0.2,
+        "fiber": 1.2,
+        "sugar": 2.6,
+        "sodium_mg": 5.0,
+        "serving_g": 100.0
+    },
+    "turnip": {
+        "kcal": 28.0,
+        "protein": 0.9,
+        "carbs": 6.4,
+        "fat": 0.1,
+        "fiber": 1.8,
+        "sugar": 3.8,
+        "sodium_mg": 67.0,
+        "serving_g": 100.0
+    },
+    "unni_appam": {
+        "kcal": 380.0,
+        "protein": 4.0,
+        "carbs": 58.0,
+        "fat": 15.0,
+        "fiber": 2.0,
+        "sugar": 25.0,
+        "sodium_mg": 40.0,
+        "serving_g": 40.0
+    },
+    "uttapam": {
+        "kcal": 160.0,
+        "protein": 4.5,
+        "carbs": 26.0,
+        "fat": 4.5,
+        "fiber": 1.5,
+        "sugar": 1.5,
+        "sodium_mg": 300.0,
+        "serving_g": 100.0
+    },
+    "vada_pav": {
+        "kcal": 250.0,
+        "protein": 6.0,
+        "carbs": 35.0,
+        "fat": 10.0,
+        "fiber": 2.5,
+        "sugar": 3.0,
+        "sodium_mg": 520.0,
+        "serving_g": 120.0
+    },
+    "veggie_burger": {
+        "kcal": 200.0,
+        "protein": 9.0,
+        "carbs": 24.0,
+        "fat": 7.0,
+        "fiber": 4.0,
+        "sugar": 3.0,
+        "sodium_mg": 450.0,
+        "serving_g": 120.0
+    },
+    "waffle": {
+        "kcal": 291.0,
+        "protein": 8.0,
+        "carbs": 33.0,
+        "fat": 14.0,
+        "fiber": 1.5,
+        "sugar": 6.0,
+        "sodium_mg": 510.0,
+        "serving_g": 75.0
+    },
+    "watermelon": {
+        "kcal": 30.0,
+        "protein": 0.6,
+        "carbs": 7.6,
+        "fat": 0.2,
+        "fiber": 0.4,
+        "sugar": 6.2,
+        "sodium_mg": 1.0,
+        "serving_g": 200.0
+    }
+}

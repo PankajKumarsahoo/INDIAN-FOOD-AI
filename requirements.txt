@@ -1,0 +1,20 @@
+# Install PyTorch FIRST using the command for your system from https://pytorch.org/get-started/locally/
+# (e.g. the CUDA build if you have an NVIDIA GPU). Then: pip install -r requirements.txt
+torch>=2.2
+torchvision>=0.17
+ultralytics>=8.3
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+opencv-python
+pillow
+tqdm
+pyyaml
+kagglehub
+python-dotenv
+google-genai
+fastapi
+uvicorn[standard]
+python-multipart

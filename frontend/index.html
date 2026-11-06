@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Indian Food AI</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #ffffff; --text: #1d2330; --muted: #667085;
+    --border: #e3e6ec; --accent: #e8590c; --accent-soft: #fff1e8; --bar: #e9ecf1;
+    --ok: #2b8a3e; --warn: #b45309; --err: #c92a2a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12151b; --card: #1b1f27; --text: #eceff4; --muted: #9aa3b2;
+      --border: #2b303b; --accent: #ff8a3d; --accent-soft: #2a1f17; --bar: #2b303b;
+      --ok: #51cf66; --warn: #fbbf24; --err: #ff6b6b;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+         background: var(--bg); color: var(--text); line-height: 1.45; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 28px 18px 60px; }
+  h1 { margin: 0 0 4px; font-size: 1.7rem; }
+  .sub { color: var(--muted); margin: 0 0 24px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+  @media (max-width: 720px) { .grid { grid-template-columns: 1fr; } }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 18px; }
+  .drop { border: 2px dashed var(--border); border-radius: 12px; min-height: 280px; display: flex;
+          flex-direction: column; align-items: center; justify-content: center; text-align: center;
+          cursor: pointer; padding: 16px; transition: .15s; position: relative; overflow: hidden; }
+  .drop.over, .drop:hover { border-color: var(--accent); background: var(--accent-soft); }
+  .drop img { max-width: 100%; max-height: 300px; border-radius: 8px; display: none; }
+  .drop .hint { color: var(--muted); }
+  .drop .big { font-size: 2.4rem; }
+  input[type=file] { display: none; }
+  button { font: inherit; border: 0; border-radius: 10px; padding: 11px 18px; cursor: pointer;
+           background: var(--accent); color: #fff; font-weight: 600; }
+  button:disabled { opacity: .5; cursor: not-allowed; }
+  button.ghost { background: transparent; color: var(--muted); border: 1px solid var(--border); }
+  .row { display: flex; gap: 10px; margin-top: 14px; flex-wrap: wrap; }
+  .food { font-size: 1.6rem; font-weight: 700; text-transform: capitalize; margin: 0; }
+  .conf { color: var(--muted); margin: 2px 0 14px; }
+  .bar { height: 8px; background: var(--bar); border-radius: 99px; overflow: hidden; }
+  .bar > i { display: block; height: 100%; background: var(--accent); border-radius: 99px; }
+  .topk { margin: 14px 0 0; padding: 0; list-style: none; }
+  .topk li { display: grid; grid-template-columns: 1fr 52px; gap: 8px; align-items: center; margin: 7px 0; font-size: .92rem; }
+  .topk .name { text-transform: capitalize; }
+  .topk .pct { text-align: right; color: var(--muted); }
+  .topk .bar { grid-column: 1 / -1; height: 5px; }
+  h3 { margin: 20px 0 8px; font-size: 1rem; }
+  .macros { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+  .macro { background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 10px 6px; text-align: center; }
+  .macro b { display: block; font-size: 1.25rem; }
+  .macro span { color: var(--muted); font-size: .78rem; }
+  .portion { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .portion input { width: 90px; font: inherit; padding: 8px; border-radius: 8px; border: 1px solid var(--border);
+                   background: var(--bg); color: var(--text); }
+  .note { color: var(--muted); font-size: .85rem; margin-top: 8px; }
+  .msg { padding: 10px 12px; border-radius: 10px; font-size: .9rem; margin-top: 10px; }
+  .msg.err { background: color-mix(in srgb, var(--err) 14%, transparent); color: var(--err); }
+  .msg.warn { background: color-mix(in srgb, var(--warn) 14%, transparent); color: var(--warn); }
+  .spinner { width: 34px; height: 34px; border: 4px solid var(--bar); border-top-color: var(--accent);
+             border-radius: 50%; animation: spin 0.8s linear infinite; margin: 40px auto 12px; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .center { text-align: center; color: var(--muted); }
+  .empty { color: var(--muted); text-align: center; padding: 70px 10px; }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>🍛 Indian Food AI</h1>
+  <p class="sub">Upload a photo of a dish to identify it and estimate calories and nutrition.</p>
+
+  <div class="grid">
+    <div class="card">
+      <label class="drop" id="drop" for="file">
+        <img id="preview" alt="Selected food photo">
+        <div id="dropText">
+          <div class="big">📷</div>
+          <div><b>Click to choose</b> or drag &amp; drop an image</div>
+          <div class="hint">JPG, PNG or WEBP, up to 15 MB</div>
+        </div>
+      </label>
+      <input type="file" id="file" accept="image/*">
+      <div class="row">
+        <button id="go" disabled>Analyze food</button>
+        <button id="clear" class="ghost" hidden>Clear</button>
+      </div>
+    </div>
+
+    <div class="card" id="result">
+      <div class="empty" id="empty">Results will appear here.</div>
+      <div id="loading" hidden class="center"><div class="spinner"></div>Analyzing… the first request can take a few seconds.</div>
+      <div id="error" class="msg err" hidden></div>
+      <div id="out" hidden>
+        <p class="food" id="food"></p>
+        <p class="conf" id="conf"></p>
+        <div class="bar"><i id="confBar"></i></div>
+        <ul class="topk" id="topk"></ul>
+
+        <h3>Portion</h3>
+        <div class="portion">
+          <input type="number" id="grams" min="1" max="5000" step="5"> <span>grams</span>
+          <button class="ghost" id="recalc">Recalculate</button>
+        </div>
+        <div class="note" id="portionNote"></div>
+
+        <h3>Nutrition for this portion</h3>
+        <div id="nutriMsg" class="msg warn" hidden></div>
+        <div class="macros" id="macros">
+          <div class="macro"><b id="kcal">–</b><span>kcal</span></div>
+          <div class="macro"><b id="protein">–</b><span>protein (g)</span></div>
+          <div class="macro"><b id="carbs">–</b><span>carbs (g)</span></div>
+          <div class="macro"><b id="fat">–</b><span>fat (g)</span></div>
+        </div>
+        <div class="note" id="timing"></div>
+        <div class="note">Estimates only. Portion size and nutrition values are approximate.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+let chosen = null, currentFood = null;
+
+function setFile(f) {
+  if (!f || !f.type.startsWith('image/')) { showError('Please choose an image file.'); return; }
+  chosen = f;
+  $('preview').src = URL.createObjectURL(f);
+  $('preview').style.display = 'block';
+  $('dropText').hidden = true;
+  $('go').disabled = false;
+  $('clear').hidden = false;
+  hideAll(); $('empty').hidden = false;
+}
+function hideAll() { ['empty','loading','error','out'].forEach(i => $(i).hidden = true); }
+function showError(m) { hideAll(); $('error').textContent = m; $('error').hidden = false; }
+const pct = x => (x * 100).toFixed(1) + '%';
+const pretty = s => s.replace(/_/g, ' ');
+
+$('file').addEventListener('change', e => setFile(e.target.files[0]));
+['dragenter','dragover'].forEach(ev => $('drop').addEventListener(ev, e => { e.preventDefault(); $('drop').classList.add('over'); }));
+['dragleave','drop'].forEach(ev => $('drop').addEventListener(ev, e => { e.preventDefault(); $('drop').classList.remove('over'); }));
+$('drop').addEventListener('drop', e => setFile(e.dataTransfer.files[0]));
+
+$('clear').addEventListener('click', () => {
+  chosen = null; $('file').value = ''; $('preview').style.display = 'none';
+  $('dropText').hidden = false; $('go').disabled = true; $('clear').hidden = true;
+  hideAll(); $('empty').hidden = false;
+});
+
+function renderNutrition(n) {
+  if (!n || n.error) {
+    $('nutriMsg').textContent = n && n.error ? n.error : 'No nutrition data.';
+    $('nutriMsg').hidden = false;
+    ['kcal','protein','carbs','fat'].forEach(k => $(k).textContent = '–');
+    return;
+  }
+  $('nutriMsg').hidden = true;
+  $('kcal').textContent = n.kcal; $('protein').textContent = n.protein_g;
+  $('carbs').textContent = n.carbs_g; $('fat').textContent = n.fat_g;
+}
+
+function render(d) {
+  hideAll(); $('out').hidden = false;
+  currentFood = d.food;
+  $('food').textContent = pretty(d.food);
+  $('conf').textContent = 'Confidence ' + pct(d.classification_confidence);
+  $('confBar').style.width = pct(d.classification_confidence);
+  $('topk').innerHTML = '';
+  (d.top_k || []).forEach(t => {
+    const li = document.createElement('li');
+    li.innerHTML = '<span class="name"></span><span class="pct"></span><div class="bar"><i></i></div>';
+    li.querySelector('.name').textContent = pretty(t.food);
+    li.querySelector('.pct').textContent = pct(t.confidence);
+    li.querySelector('i').style.width = pct(t.confidence);
+    $('topk').appendChild(li);
+  });
+  const p = d.portion || {};
+  $('grams').value = Math.round(p.estimated_grams || (d.nutrition && d.nutrition.portion_grams) || 150);
+  const how = p.confidence && p.confidence !== 'none' ? ' (' + p.confidence + ' confidence)' : '';
+  $('portionNote').textContent = (p.reasoning || '') + how;
+  renderNutrition(d.nutrition);
+  const t = d.timings;
+  $('timing').textContent = t ? 'Server time: ' + t.total_s + ' s (classify ' + t.classify_s + ' s, portion ' + t.portion_s + ' s)' : '';
+}
+
+$('go').addEventListener('click', async () => {
+  if (!chosen) return;
+  hideAll(); $('loading').hidden = false; $('go').disabled = true;
+  const fd = new FormData(); fd.append('file', chosen);
+  try {
+    const r = await fetch('/predict', { method: 'POST', body: fd });
+    const data = await r.json();
+    if (!r.ok) throw new Error(data.detail || 'Request failed');
+    render(data);
+  } catch (e) {
+    showError(e.message === 'Failed to fetch' ? 'Cannot reach the server. Is it running?' : e.message);
+  } finally { $('go').disabled = false; }
+});
+
+$('recalc').addEventListener('click', async () => {
+  const g = parseFloat($('grams').value);
+  if (!currentFood || !(g >= 1 && g <= 5000)) { $('nutriMsg').textContent = 'Enter grams between 1 and 5000.'; $('nutriMsg').hidden = false; return; }
+  try {
+    const r = await fetch('/nutrition?food=' + encodeURIComponent(currentFood) + '&grams=' + g);
+    const data = await r.json();
+    if (!r.ok) throw new Error(data.detail || 'Request failed');
+    renderNutrition(data);
+  } catch (e) { $('nutriMsg').textContent = e.message; $('nutriMsg').hidden = false; }
+});
+</script>
+</body>
+</html>
